@@ -9,7 +9,6 @@ using namespace std;
 int main () {
   ifstream myfile;
   myfile.open ("../input");
-  vector<string> lines;
   vector<int> maxCals;
   if (myfile.is_open()) {
     string lineString;

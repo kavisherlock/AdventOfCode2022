@@ -35,7 +35,6 @@ int getRoundScore(char opponent, char intendedResult) {
 int main () {
   ifstream myfile;
   myfile.open ("../input");
-  vector<string> lines;
   int totalScore = 0;
   if (myfile.is_open()) {
     string lineString;
