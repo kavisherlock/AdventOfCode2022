@@ -19,7 +19,7 @@ vector<string> split(string s, string delimiter) {
 
 int main () {
   ifstream myfile;
-  myfile.open ("../input");
+  myfile.open ("../testinput");
   vector<string> lines;
   if (myfile.is_open()) {
     string lineString;
